@@ -8,12 +8,4 @@ public interface Vehiculo {
     void acelerar();
 
     void frenar();
-
-    void llenarTanque();
-
-    void despegar();
-
-    void aterrizar();
-
-    void cargar();
 }

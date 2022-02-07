@@ -1,6 +1,6 @@
 package segregacioninterfaz;
 
-public class Carro implements Vehiculo {
+public class Carro implements Vehiculo, Electrico {
     @Override
     public void encender() {
 
@@ -22,23 +22,7 @@ public class Carro implements Vehiculo {
     }
 
     @Override
-    public void llenarTanque() {
+    public void recargar() {
 
-    }
-
-    @Override
-    public void despegar() {
-        throw new UnsupportedOperationException("Los carros no despegan");
-
-    }
-
-    @Override
-    public void aterrizar() {
-        throw new UnsupportedOperationException("Los carros no aterrizan");
-    }
-
-    @Override
-    public void cargar() {
-        throw new UnsupportedOperationException("Los carros no cargan");
     }
 }

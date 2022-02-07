@@ -1,9 +1,9 @@
 package segregacioninterfaz;
 
-public class Moto implements Vehiculo, Electrico {
+public class Avion implements Vehiculo, Volador {
     @Override
     public void encender() {
-
+        
     }
 
     @Override
@@ -22,7 +22,12 @@ public class Moto implements Vehiculo, Electrico {
     }
 
     @Override
-    public void recargar() {
+    public void despegar() {
+
+    }
+
+    @Override
+    public void aterrizar() {
 
     }
 }
